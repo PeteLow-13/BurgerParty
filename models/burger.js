@@ -17,6 +17,5 @@ const burger = {
         })
     }
 };
-
-
+//export db functions for controller (burger.js)
 module.exports = burger
