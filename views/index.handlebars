@@ -5,7 +5,8 @@
 <ul>
     {{#each burgers}}
         {{#unless devoured}}
-            {{.burgers/burgers-block devoured=false}}
+            <span> {{this.id}} - {{ this.burger_name}}</span>
+            <button type='button' class='devoured-button' id='devouredButton' data-id ='{{this.id}}'data-devouredBurger='{{devour}}'></button>
         {{/unless}}
     {{/each}}
 </ul>
@@ -14,9 +15,10 @@
 
 <ul>
     {{#each burgers}}
-        {{#unless devoured}}
-            {{.burgers/burgers-block devoured=false}}
-        {{/unless}}
+        {{#if devoured}}
+            <span> {{this.id}} - {{ this.burger_name}}</span>
+            <button type='button' class='delete-button' id='deleteButton' data-id ='{{this.id}}'data-devouredBurger='{{devour}}'></button>
+        {{/if}}
     {{/each}}
 </ul>
 
