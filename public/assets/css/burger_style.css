@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+    
+}
+body {
+    background-image: url("../img/burger.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.all-burgers{
+    background-color: rgba(219, 12, 12, 0.315);
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.527);
+    color: whitesmoke;
+    max-width: 95%s;
+    border-style: solid;
+    border-color:tan;
+    border-width: 2px;
+    border-radius: 5px;
+    
+}
+.new-burger-form{
+    background-color: rgba(219, 12, 12, 0.5);
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.527);
+    color: whitesmoke;
+    max-width: 95%s;
+    border-style: solid;
+    border-color: tan;
+    border-width: 2px;
+    border-radius: 5px;
+    height: 20%;
+    
+}
+.new-burgers{
+    background-color: rgba(219, 12, 12, 0.315);
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.527);
+    color: whitesmoke;
+    max-width: 95%s;
+    border-style: solid;
+    border-color: rgb(3, 141, 3);
+    border-width: 2px;
+    border-radius: 5px;
+}
+.devoured-burgers{
+    background-color:rgba(219, 12, 12, 0.315);
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.527);
+    color: whitesmoke;
+    max-width: 95%s;
+    border-style: solid;
+    border-color: brown;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+h1{
+    background-color: rgba(219, 12, 12, 0.315);
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.527);
+    color: whitesmoke;
+    max-width: 95%s;
+    border-style: solid;
+    border-color: tan;
+    border-width: 2px;
+    border-radius: 5px;
+    height: 20%;
+}
+
+.delete-button{ 
+    background-color: green;
+}
+.devour-button{
+    background-color: green;
+}
